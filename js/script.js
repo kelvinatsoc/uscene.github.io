@@ -8,10 +8,10 @@
   $(function() {
     var size = 0;
     if(window.innerWidth < 575){
-      size = 100;
+      size = 300;
     }
     else if (window.innerWidth < 870){
-      size = 400;
+      size = 500;
     }
     else{
       size = 730;
