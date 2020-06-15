@@ -6,6 +6,11 @@
     --grey: #707070;
 }
 
+body{
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
 *{
   font-family: 'Roboto Mono', monospace;
 }
@@ -62,7 +67,6 @@ color:var(--yellow);
 
 .carousel-item{
   border: none !important;
-  
 }
 
 .carousel-indicators > li{
@@ -92,7 +96,6 @@ color:var(--yellow);
   font-size: 90px;
   color: var(--darkyellow);
   text-shadow: black 0.1em 0.1em 0.5em;
-
 }
 
 /*Texto da tela Uscene*/
@@ -104,13 +107,12 @@ color:var(--yellow);
   font-size:20px;
   color: var(--white);
   text-shadow: black 0.1em 0.1em 0.2em;
-
 }
 /*Tela UScene quando a largura for menor que 1064px*/
 @media (max-width: 1064px){
     .uscene-title{
         position: absolute;
-        top: 70px;
+        top: 60px;
         left: 30px;
         font-size: 65px;
         color: var(--darkyellow);
@@ -118,7 +120,7 @@ color:var(--yellow);
       
       .uscene-text{
         position: absolute;
-        top: 150px;
+        top: 140px;
         left: 30px;
         right: 450px;
         font-size:16px;
@@ -141,7 +143,7 @@ color:var(--yellow);
         top: 90px;
         left: 35px;
         right: 300px;
-        font-size:12px;
+        font-size:15px;
         color: var(--white);
       
       }
@@ -152,7 +154,7 @@ color:var(--yellow);
         top: 65px;
         left: 25px;
         right: 250px;
-        font-size:11px;
+        font-size:15px;
         color: var(--white);
       }
 }
@@ -171,7 +173,7 @@ color:var(--yellow);
         top: 65px;
         left: 25px;
         right: 250px;
-        font-size:10px;
+        font-size:13px;
         color: var(--white);
       
       }
@@ -190,7 +192,7 @@ color:var(--yellow);
         top: 53px;
         left: 25px;
         right: 250px;
-        font-size:8px;
+        font-size:10px;
         color: var(--white);
       }
 }
@@ -204,11 +206,6 @@ color:var(--yellow);
 @media only screen and (max-width: 768px) {
  .artistas-title {
     font-size: 40px;
-  }
-}
-@media only screen and (max-width: 600px) {
- .artistas-title {
-    font-size: 35px;
   }
 }
 .artistas-top{
@@ -276,7 +273,7 @@ color:var(--yellow);
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 90%;
+  width: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -308,6 +305,11 @@ i{
   font-size: 60px;
 }
 
+@media only screen and (max-width: 600px) {
+ .festival-title {
+    font-size: 40px;
+  }
+}
 .festival-text{
   color: var(--yellow);
 }
@@ -322,9 +324,3 @@ i:hover{
  
 
 }
-
-/* Festival Uscene*/
-@media only screen and (max-width: 572px){
-  .festival-title{
-    font-size: 20px;
-  }
