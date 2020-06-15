@@ -91,6 +91,8 @@ color:var(--yellow);
   left: 40px;
   font-size: 90px;
   color: var(--darkyellow);
+  text-shadow: black 0.1em 0.1em 0.5em;
+
 }
 
 /*Texto da tela Uscene*/
@@ -101,6 +103,7 @@ color:var(--yellow);
   right: 750px;
   font-size:20px;
   color: var(--white);
+  text-shadow: black 0.1em 0.1em 0.2em;
 
 }
 /*Tela UScene quando a largura for menor que 1064px*/
