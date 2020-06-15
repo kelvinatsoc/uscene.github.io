@@ -37,6 +37,9 @@ body{
 .nav-link{
     text-decoration: none;
 }
+.nav-link:hover{
+  color: white;
+}
 
 .navbar-toggler{
     /*tirar a borda azul qnd clica*/
